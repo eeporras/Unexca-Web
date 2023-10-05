@@ -1,0 +1,251 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 150px;
+    display: block;
+    border-radius: 3px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: #0E386E;
+    transition: all 300ms ease;   
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu li:hover {
+    background: black;
+   
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none; 
+    list-style: none;
+    width: 200px;
+    background-color: #0E386E;
+}
+
+.menu li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    transition: all 300ms ease;
+}
+
+h1 {
+    color: #0E386E;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    float: right;
+    margin-right: 10%;
+    background-color: #0E386E;
+    color: white;
+}
+
+
+iframe {
+    float: right;
+    width: 350px;
+    height: 250px;
+    margin-right: 5%;
+    
+}
+
+.hr2{
+    margin-top: 0 auto;
+    width: 300px;
+    margin-left: 70%;
+    
+}
+
+.hr2{
+    margin-top: 0 auto;
+    width: 300px;
+    margin-left: 70%;
+}
+
+.carrusel{
+    position: relative;
+}
+
+.carrusel .slider{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 3px 5 rgba(0, 0, 0, 0,6);
+}
+
+.slider .slidercont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  /*/  display: none;/*/ /*/aqui quitar/*/
+}
+
+.slider .slidercont img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.slider .slidercont h3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background:#0E386E; 
+    text-transform: capitalize;
+}
+
+.carrusel .controls{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+h2 .centro{
+    text-align: center;
+    float: right;
+}
+
+p{
+    text-align: center;
+    font-size: 41px;
+    color: #0E386E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 .cartelera{
+    float: right;
+    margin-right: 10%;
+    background-color: #0E386E;
+    color: white;
+}
+
+.redes{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    left: 80%;
+    margin: 2.5vw;
+    font-size: 3.6vw;
+    width: 15vw;
+    padding: 2.5vw 0;
+}
+
+.redes ul li{
+    list-style: none;
+    margin: 1.5vw;
+    display: flex;
+}
+
+.redes ul li a{
+    color: #0E386E;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0E386E;
+    position:   relative;
+    margin: 1000px 10px 0px 0px;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+    height: 200px;
+}
+
+.pie-pagina .grupo-1 .box h1{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    
+}
+
+.pie-pagina .grupo-1 .info a{
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    border-radius: 100px;
+    display: block;
+    background-color:#4389CF ;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .info i{
+    margin: 50px;
+    display: block;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin: 0px 10px ;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin: 10px 10px 10px 50px;
+}
+
+.pie-pagina .grupo-2 {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background-color: #4389CF;
+}
+
